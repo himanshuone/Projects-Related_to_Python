@@ -1,0 +1,11 @@
+s = "("
+close={")":"(","]":"[","}":"{"}
+stack=list()
+for c in s:
+    if c in close:
+        print ("yes",c)
+    else:
+        stack.append(c)
+        print("stack",stack)
+# if stack:
+#     print(yes)
